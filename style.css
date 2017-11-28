@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.navbar {
+  background-color: black;
+  height: 100px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0px auto;
+  background-color: blue;
+}
+
+.links {
+  float: right;
+  margin-top: 18px;
+}
+
+.links ul li {
+  padding: 0;
+	display: inline;
+  margin-left: 15px;
+}
+
+.links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 22px;
+  transition: color 0.2s ease-in-out
+}
+
+.links li a:hover {
+  color: yellow;
+  transition: color 0.2s ease-in-out
+}
