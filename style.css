@@ -5,15 +5,18 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
+.logo {
+  display: inline;
+}
+
 .navbar {
   background-color: black;
   height: 100px;
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1300px;
   margin: 0px auto;
-  background-color: blue;
 }
 
 .links {
@@ -32,10 +35,60 @@ body {
   color: white;
   font-weight: 500;
   font-size: 22px;
-  transition: color 0.2s ease-in-out
+  transition: color 0.2s ease-in-out;
 }
 
 .links li a:hover {
-  color: yellow;
-  transition: color 0.2s ease-in-out
+  color: red;
+  transition: color 0.2s ease-in-out;
+}
+
+section {
+  padding: 0;
+  margin: 0
+}
+
+.panel {
+  border-style: solid;
+  border: 1px;
+  border-color: black;
+}
+
+.panel ol {
+  padding: 0;
+}
+
+.panel li {
+  text-align: center;
+  display: inline-block;
+	width: 300px;
+	vertical-align: top;
+  padding-top: 10px;
+  margin-left: 18px;
+}
+
+.panel li figure {
+  margin: 0;
+}
+
+.panel li img {
+  border-radius: 10px;
+}
+
+.text {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: -15px;
+}
+
+.text p {
+  margin-top: -15px;
+  font-weight: 600;
+}
+
+.panel li:hover {
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:  #e6e9ef;
+  box-shadow: 10px 10px 5px grey;
 }
