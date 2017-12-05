@@ -45,7 +45,6 @@ body {
 
 section {
   padding: 0;
-  margin: 0
 }
 
 .panel {
@@ -91,4 +90,23 @@ section {
   border-radius: 10px;
   background-color:  #e6e9ef;
   box-shadow: 10px 10px 5px grey;
+}
+
+.map {
+  display: inline;
+}
+
+.location-text {
+  display:inline;
+  width: 470px;
+  float: right;
+}
+
+.location-text h3 {
+  margin: 0;
+  color: red;
+}
+
+.location-text {
+  font-family: 'Open Sans', sans-serif;
 }

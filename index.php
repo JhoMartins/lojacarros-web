@@ -1,29 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Adriano Multimarcas</title>
+    <title>JD Autos</title>
     <meta charset="utf-8">
     <Link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <header>
-      <nav class="navbar">
-        <div class="container">
-          <div class="logo">
-             <img src="images/logo.png" />
-          </div>
-          <div class="links">
-            <ul>
-              <li><a href="#">Estoque</a></li>
-              <li><a href="#">Financiamento</a></li>
-              <li><a href="#">Sobre</a></li>
-              <li><a href="#">Contato</a></li>
-              <li><a href="#">Localização</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <?php
+        require_once('shared/navbar.html');
+       ?>
     </header>
     <section class="container">
       <h2>Destaques da Semana</h2>
@@ -72,6 +59,5 @@
         </ol>
       </div>
     </section>
-
   </body>
 </html>
