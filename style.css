@@ -118,4 +118,39 @@ footer {
 .footer {
   font-family: 'Open Sans', sans-serif;
   color: white;
+  padding-top: 20px;
+}
+
+.vertical-logo {
+  display: inline;
+  float: left;
+  width: 325px;
+  color: white;
+}
+
+.vertical-logo p {
+  margin: 0;
+  margin-top: -10px;
+}
+
+.news {
+  display: inline;
+  width: 325px;
+}
+
+.news h2 {
+  margin: 10px 0;
+}
+
+.news input {
+  margin-bottom: 30px;
+  height: 24px;
+  border-radius: 5px;
+  border: 1px solid black
+}
+
+.address {
+  display: inline;
+  float: right;
+  margin-top: -100px;
 }
