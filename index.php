@@ -60,4 +60,7 @@
       </div>
     </section>
   </body>
+  <?php
+    require_once("shared/footer.html");
+   ?>
 </html>

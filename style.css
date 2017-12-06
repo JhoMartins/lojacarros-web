@@ -110,3 +110,12 @@ section {
 .location-text {
   font-family: 'Open Sans', sans-serif;
 }
+
+footer {
+  background-color: black;
+}
+
+.footer {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
