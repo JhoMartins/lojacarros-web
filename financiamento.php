@@ -15,7 +15,7 @@
     <section class="container">
       <h2>Simule seu Financiamento</h2>
       <div class="panel-fin">
-        <form class="form" action="process.php">
+        <form class="form" action="process.php" method="post">
           <div class="input">
             <p>Nome:</p>
             <input type="text" name="nome" size="70">
@@ -28,8 +28,8 @@
 
           <div class="input" style="display: inline">
             <div class="" style="display: inline; float: left; margin-right: 10px;">
-              <p>Modelo:</p>
-              <input type="text" name="modelo" size="46">
+              <p>Veículo:</p>
+              <input type="text" name="veiculo" size="46">
             </div>
 
             <div style="display: inline">
@@ -63,6 +63,7 @@
           <div class="actions">
             <input type="submit" name="submit" value="Simular">
             <input type="reset" name="reset" value="Limpar">
+            <input type="hidden" name="submitted" value="1" />
           </div>
         </form>
       </div>
