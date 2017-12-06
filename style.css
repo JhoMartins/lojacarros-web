@@ -113,12 +113,16 @@ section {
 
 footer {
   background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer {
   font-family: 'Open Sans', sans-serif;
   color: white;
   padding-top: 20px;
+  position: relative;
 }
 
 .vertical-logo {
@@ -153,4 +157,33 @@ footer {
   display: inline;
   float: right;
   margin-top: -100px;
+}
+
+.panel-fin {
+  background-color: #d1d3d6 ;
+  width: 450px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+.input p {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.input input {
+  height: 25px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.actions input {
+  height: 25px;
+}
+
+.actions {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
