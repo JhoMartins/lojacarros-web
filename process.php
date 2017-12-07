@@ -71,7 +71,8 @@
 
           else {
             if (is_numeric($entrada) && is_numeric($valor) && is_numeric($ano)){
-              $total = ($valor - $entrada) * ($parcelas * 1.02);
+              $valor_abatido = $valor - $entrada;
+              $total =  $valor_abatido + $valor_abatido * ($parcelas * 2)/100;
               $total_parcela = $total/$parcelas;
 
               echo '<h2>Resultado da Simulação</h2>' .
@@ -81,12 +82,15 @@
                    '<strong>Ano: </strong>' . $ano . '<br />'.
                    '<strong>Entrada: </strong>' . $entrada . '<br />'.
                    '<strong>Valor: </strong>' . $valor . '<br />' .
-                   '<strong>Financiamento: </strong>' . $parcelas . 'x ' . $total_parcela;
+                   '<strong>Financiamento: </strong>' . $parcelas . 'x ' . 'R$ ' . $total_parcela . '<br />' .
+                   '<strong>Taxa de Juros: 2% a.m</strong>';
+            }
+            else {
+              echo '<h2>Erro: os valores para os campos [Entrada], [Valor Veúclo] e [Ano] devem ser números</h2>';
             }
 
           }
         }
-
        ?>
     </section>
   </body>
