@@ -187,3 +187,26 @@ footer {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.contato {
+  font-family: 'Open Sans', sans-serif;
+}
+
+section h2 {
+  color: red;
+  display: inline;
+}
+
+.form-contato {
+  float: right;
+}
+
+.form-contato input {
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.form-contato textarea {
+  border-radius: 10px;
+}
